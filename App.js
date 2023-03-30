@@ -10,7 +10,7 @@ import database from './pages/database';
 
 const myDb = new database();
 const Stack = createStackNavigator();
-
+//
 const App = () => {
   useEffect(() => {
     myDb.init();
